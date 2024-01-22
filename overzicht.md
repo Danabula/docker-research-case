@@ -49,7 +49,7 @@ de oci container image specificatie heeft een platform nodig met cpu architectuu
 
 ## Docker
 wie hoe wat waar wanneer waarom docker
-containers zijn goedkoper dan virtuele machines, maar gebruiken dezelfde kernel als het host operating systeem
+containers maken efficienter gebruikt van de host os resources dan virtuele machines, maar gebruiken dezelfde kernel als het host operating systeem
 voor containers hoef je niet rekening te houden met de state vm configuraties, dat hoeft anders ook niet met een vm orchestrator
 Docker is een runtime voor containers die de oci standaard gebruiken.
 Containers zijn een lighte virtualisatie technologie gebouwd op de linux kernel.
@@ -65,7 +65,7 @@ Docker word gebruikt
     security werkt met lagen en de docker runtime isoleert het van het host systeem met de juiste configuraties
 
 # Todo
-- github
 - spelcheck
-- uitnodigen github ChiyuCC & sven
+- uitnodigen github sven
+- move to template structure
 
