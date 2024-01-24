@@ -21,5 +21,4 @@ flags: voor opdrachten 'key' moet gemaakt worden, chain 'word later op gebouwd i
 
 # Todo
 - spelcheck
-- uitnodigen github sven
 
