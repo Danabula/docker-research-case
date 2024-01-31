@@ -1,0 +1,9 @@
+unix filesysteem image:
+    author: Ppgardne
+    license: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+    source: https://en.wikipedia.org/wiki/File:Standard-unix-filesystem-hierarchy.svg?lang=en
+
+docker logo:
+    author: Docker, Inc.
+    license: https://www.docker.com/legal/trademark-guidelines/
+    source: https://docs.docker.com/
