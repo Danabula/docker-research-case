@@ -1,0 +1,12 @@
+FROM alpine:latest
+# dit is waar je de base image kiest, hierzo debian van de standard repository (dockerhub) met de latest tag (de laatste versie).
+
+RUN apk update && apk add neofetch
+# update package database en installeer neofetch
+
+RUN echo hallo we zijn een image aan het bouwen!
+# als we deze Dockerfile gebruiken om een image te bouwen, zullen we "hallo we zijn een image aan het bouwen!" te zien krijgen.
+# het sh echo commando print naar stdout, oftewel het doet hetzelfde als echo en print in programmeer talen>
+
+ENTRYPOINT [ "neofetch" ]
+# run neofetch in een container

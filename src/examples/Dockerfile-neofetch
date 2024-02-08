@@ -1,0 +1,15 @@
+FROM debian:latest
+# dit is waar je de base image kiest, hierzo debian van de standard repository (dockerhub) met de latest tag (de laatste versie).
+
+RUN apt update && apt install neofetch
+# de RUN instructie wordt gebruikt een commandos uit te voeren.
+# hier updaten we eerst de package database, oftewel welke programmas de package manager het bestaan van weet.
+# apt is het commando van de debian package manager aptitude.
+# en (&&) hier installeren we het programma neofetch, dat wordt gebruikt om informatie over een operating systeem laat zien.
+
+RUN echo hallo we zijn een image aan het bouwen!
+# als we deze Dockerfile gebruiken om een image te bouwen, zullen we "hallo we zijn een image aan het bouwen!" te zien krijgen.
+# het sh echo commando print naar stdout, oftewel het doet hetzelfde als echo en print in programmeer talen>
+
+ENTRYPOINT [ "neofetch" ]
+# entrypoint is het commando dat wordt gedraaid, als je een container van deze image gebruikt.
