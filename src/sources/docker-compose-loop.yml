@@ -1,0 +1,9 @@
+services:
+  py:
+    image: python:3-alpine
+    entrypoint: python -u /script.py
+    volumes:
+      - "./loop.py:/script.py:ro"
+    environment:
+      PYTHONUNBUFFERED: 1
+      MESSAGE: "Hello python!"
