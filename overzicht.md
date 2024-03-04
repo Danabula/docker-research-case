@@ -1,6 +1,11 @@
 # Docker research case overzicht
 
 
+De folder layout is als volgt
+- de src folder wordt geupload naar codecrashers.nl en verwerkt.
+- de local folder bevat bronbestanden voor de src folder en een aantal ongebruikte bestanden.
+
+
 ## Opdracht
 - Zorg dat je je zo breed mogelijk oriënteert tijdens deze onderzoeksfase.
 - Alleen de documentatie van de programmeertaal of product is dus niet voldoende! 

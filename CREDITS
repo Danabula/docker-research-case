@@ -1,3 +1,31 @@
+Copyright notices for used assets.
+
+qemu logo:
+    author: Benoît Canet
+    license: https://creativecommons.org/licenses/by/3.0/
+    source: http://lists.gnu.org/archive/html/qemu-devel/2012-02/msg02865.html
+
+kvm logo:
+    author: http://openvirtualizationalliance.org
+    license: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+    source: http://openvirtualizationalliance.org/downloads/kvm-logo_300dpi.png
+
+virtmanager logo:
+    author: Daniel P. Berrangé for Red Hat
+    license: GPL v2 or later, https://www.gnu.org/licenses/old-licenses/gpl-2.0.html https://www.gnu.org/copyleft/gpl-3.0.html
+    source: http://virt-manager.org/
+
+libvirt logo:
+    author: Red Hat, Inc.
+    license: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+    source: https://wikiless.esmailelbob.xyz/wiki/File:Libvirt_logo.svg?lang=en
+    TODO REPLACE WITH WIKIPEDIA LINKS
+
+virtualbox logo:
+    author: Virtualbox
+    license: https://www.virtualbox.org/browser/vbox/trunk/COPYING
+    source: https://commons.wikimedia.org/wiki/File:Virtualbox_logo.png
+
 unix filesysteem image:
     author: Ppgardne
     license: https://creativecommons.org/licenses/by-sa/4.0/deed.en
