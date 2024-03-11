@@ -1,4 +1,10 @@
-Copyright notices for used assets.
+# Copyright notices for used assets.
+
+
+virtual-machines.png:
+    author: DaanP
+    license: agpl3 (see repo license)
+    source: n/a
 
 qemu logo:
     author: Benoît Canet
@@ -18,8 +24,7 @@ virtmanager logo:
 libvirt logo:
     author: Red Hat, Inc.
     license: https://creativecommons.org/licenses/by-sa/3.0/deed.en
-    source: https://wikiless.esmailelbob.xyz/wiki/File:Libvirt_logo.svg?lang=en
-    TODO REPLACE WITH WIKIPEDIA LINKS
+    source: https://en.wikipedia.org/wiki/File:Libvirt_logo.svg?lang=en
 
 virtualbox logo:
     author: Virtualbox
