@@ -1,6 +1,11 @@
 # Copyright notices for used assets.
 
 
+virt-tools:
+    author: DaanP
+    license: agpl3 (see repo license)
+    source: n/a
+
 virtual-machines.png:
     author: DaanP
     license: agpl3 (see repo license)
