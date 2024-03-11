@@ -7,6 +7,7 @@ De folder layout is als volgt
 
 
 ## Opdracht
+
 - Zorg dat je je zo breed mogelijk oriënteert tijdens deze onderzoeksfase.
 - Alleen de documentatie van de programmeertaal of product is dus niet voldoende! 
 - kijk naar andere artikelen
