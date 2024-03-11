@@ -24,7 +24,51 @@ De folder layout is als volgt
     flags: voor opdrachten 'key' moet gemaakt worden, chain 'word later op gebouwd in andere les', bonus optionele opdracht
 
 
-# Todo
+## Todos text
+
+- docker & container history paragraph
+    geschiedenis containers & docker
+    tijdlijn
+        - docker creatie
+        - stop gebruikt lxc naar libcontainer
+        - libcontainer wordt runc
+        - docker splitsing
+        - oci oprichting voor standards
+    podman?
+- opdrachten
+    - setup old project in vm
+    - dockerize old project
+    - setup dockerised old in vm
+    - refactor de neofetch dockerfile om alpine linux te gebruiken in plaats van debian
+- docker ecosystem image
+    - kubernetes
+    - ddev
+    - cri spec
+    - grpc
+    - crio
+    - skopeo, buildah
+    - docker swarm
+    - wsl
+    - podman (machine)
+- debug container ideas
+    bad logging (eg. no exec in shell script entrypoint)
+    multi program container
+    pipe daemon into tail
+    non persistent database, oplossing is een rw mount
+    ?, oplossing is log rotatie
+    image gigantisch door het niet verwijderen van build dependencies
+    standalone image
+    host resolution using container name
+    not stopping on sigterm (eg. docker stop), solution only pid1 gets signals
+    interactief nodig: run -it --rm *container naam* & docker exec sh
+    explain that removing packages in new layer shrink image, because the files are on a previous still used in an earlier layer
+
+
+## Todos
+
+- split subject 03
+- read codecrashers mysql exercise
+- create exercises
 - spelcheck
-- read codecrashers php module
+
 
