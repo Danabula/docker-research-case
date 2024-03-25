@@ -3,13 +3,71 @@
 
 virt-tools:
     author: DaanP
-    license: agpl3 (see repo license)
-    source: n/a
+    license: https://www.gnu.org/licenses/agpl-3.0.en.html
 
 virtual-machines.png:
     author: DaanP
-    license: agpl3 (see repo license)
-    source: n/a
+    license: https://www.gnu.org/licenses/agpl-3.0.en.html
+
+docker-ecosysteem:
+    author: DaanP
+    license: https://www.gnu.org/licenses/agpl-3.0.en.html
+
+crun logo:
+    author: ?
+    license: GPL v2, https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    source: https://github.com/containers/crun
+
+buildah logo:
+    author: ?
+    license: https://www.apache.org/licenses/LICENSE-2.0.html
+    source: https://github.com/containers/buildah
+
+lxc logo:
+    author: ?
+    license: LGPL-2.1+ https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+    source: https://github.com/lxc/lxc
+
+tux mascot:
+    author: Larry Ewing, Simon Budig, Garrett LeSage
+    license:
+        - http://www.home.unix-ag.org/simon/penguin/README
+        - lewing@isc.tamu.edu
+        - https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    source:
+        - https://isc.tamu.edu/~lewing/linux/
+        - http://www.home.unix-ag.org/simon/penguin/
+        - https://github.com/garrett/Tux
+
+distribution (oci image distribution software) logo:
+    author: ?
+    license: https://www.apache.org/licenses/LICENSE-2.0.html
+    source: https://github.com/distribution/distribution
+
+open container initiative logo:
+    author: ?
+    license: https://www.linuxfoundation.org/legal/trademark-usage
+    source: https://opencontainers.org/
+
+systemd logo:
+    author: Tobias Bernard
+    license: https://creativecommons.org/licenses/by-sa/4.0/
+    source: https://brand.systemd.io/
+
+containerd logo:
+    author: ?
+    license: https://www.linuxfoundation.org/legal/trademark-usage
+    source: https://github.com/cncf/artwork/tree/main/projects/containerd
+
+podman desktop logo:
+    author: ?
+    license: https://www.apache.org/licenses/LICENSE-2.0.html
+    source: https://podman-desktop.io/
+
+moby logo:
+    author: The Moby Project
+    license: https://www.apache.org/licenses/LICENSE-2.0.html
+    source: https://github.com/moby/moby
 
 qemu logo:
     author: Benoît Canet
